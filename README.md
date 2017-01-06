@@ -1,2 +1,2 @@
 # adb_helper_scripts
-Helper scripts for working
+Helper scripts for working with Android devices
