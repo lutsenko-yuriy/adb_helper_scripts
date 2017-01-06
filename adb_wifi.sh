@@ -13,7 +13,7 @@
 # 3. Your phone can be debugged via Wi-Fi if text "Connected to <PHONE_IP>:5555 has appeared
 # 4. Otherwise repeat step 2
 #
-# To disconnect your device print '''adb usb''' while it is not connected to Wi-Fi
+# To disconnect your device print '''adb usb''' while it is not connected to computer via USB
 
 PHONE_IP=`adb shell ip -f inet addr show wlan0 | grep "inet" | sed -e 's/\/[0-9]*//g' | awk '{print $2}'`
 
